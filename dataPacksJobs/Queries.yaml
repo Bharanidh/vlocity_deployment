@@ -2,7 +2,7 @@ projectPath: .
 expansionPath: datapack-expanded
 manifestOnly: false
 ignoreAllErrors: false
-continueAfterErrors: true
+continueAfterErrors: false
 
 queries:
     - VlocityDataPackType: OmniScript
