@@ -1,0 +1,19 @@
+projectPath: .
+expansionPath: datapack-expanded
+manifestOnly: false
+ignoreAllErrors: false
+continueAfterErrors: true
+
+queries:
+    - VlocityDataPackType: OmniScript
+      query: Select Id from %vlocity_namespace%__OmniScript__c where name like 'crm%'
+    - VlocityDataPackType: VlocityUILayout
+      query: Select Id from %vlocity_namespace%__VlocityUILayout__c where name like 'crm%' and %vlocity_namespace%__Active__c = true
+    - VlocityDataPackType: DataRaptor
+      query: Select ID from %vlocity_namespace%__DRBundle__c where name like 'crm%'
+    - VlocityDataPackType: VlocityCard
+      query: Select Id from %vlocity_namespace%__VlocityCard__c where name like 'crm%'
+    - VlocityDataPackType: VlocityAction
+      query: Select Id from %vlocity_namespace%__VlocityAction__c where name like 'crm%'
+    - VlocityDataPackType: ContextAction
+      query: Select Id from %vlocity_namespace%__ContextAction__c where name like 'crm%'

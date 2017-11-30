@@ -1,0 +1,6 @@
+build_*.properties
+dataPacksJobs/local.yaml
+node_modules/
+vlocity-deploy-temp/
+datapack-expanded/
+build.properties

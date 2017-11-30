@@ -1,0 +1,12 @@
+projectPath: .
+expansionPath: datapack-expanded
+manifestOnly: false
+ignoreAllErrors: false
+continueAfterError: false
+maximumDeployCount: 1000
+defaultMaxParallel: 1
+exportPacksMaxSize: null
+preStepApex:
+    Deploy: DeactivateTemplatesAndLayouts.cls
+delete: true
+activate: true
